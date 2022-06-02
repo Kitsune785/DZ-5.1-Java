@@ -9,14 +9,12 @@ public class SQRService {
         for (int i = 10; i <= 99; i++) {
             if (i * i >= minSQR) {
                 if (i * i <= maxSQR) {
-
                     counterTotal = counterTotal + 1;
                     continue;
                 }
                 return counterTotal;
 
             }
-
 
         }
         return -1;
